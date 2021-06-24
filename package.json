@@ -1,0 +1,24 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuarios direcionadas ao dono da página. Projeto desenvolvido na semana NLW Rocketseat na missão discover",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edersonrpd/rocketq.git"
+  },
+  "keywords": [],
+  "author": "Ederson Domiciano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edersonrpd/rocketq/issues"
+  },
+  "homepage": "https://github.com/edersonrpd/rocketq#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
