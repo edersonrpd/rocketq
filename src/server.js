@@ -5,8 +5,8 @@ const server = express();
 
 
 server.use(route)
-server.set('view engine', 'ejs')
-server.set('views', path.join(__dirname, 'views'))
-server.listen(3000, () => console.log('Servidor em execução')
-)
+server.set('view engine', 'ejs');
+server.use(express.static('public'));
+server.set('views', path.join(__dirname, 'views'));
+server.listen(3000, () => console.log('Servidor em execução'));
 
